@@ -1,0 +1,4 @@
+# Might need to choose another idProduct number
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", GROUP="root", MODE="0666"
+# The next configuration line is more generic, using only the idVendor, but it might configure unwanted devices from the same vendor
+#SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", GROUP="root", MODE="0666"

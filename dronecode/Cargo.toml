@@ -1,0 +1,17 @@
+[package]
+name = "dronecode"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+heapless = "0.7.16"
+micromath = "2.0.0"
+
+tudelft-quadrupel = {version="2"}
+fixed = "1.23.0"
+common = { path = "../common" }
+defmt = "0.3.2"
+cordic = "0.1.5"
+fixed-sqrt = "0.2.5"

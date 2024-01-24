@@ -1,0 +1,1 @@
+If using "udev" device configuration on your linux machine, you can copy the configuration rule found at the project path `/runner/config/40-quadrupel.rules` to your PC usually at the absolute path `/etc/udev/rules.d/`
